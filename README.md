@@ -1,10 +1,10 @@
 # Tinyservice
 
-To run:
-In the Tinyservice directory:
+Prepare a virtual environment and install packages:
 
 - Setup a virtual environment
 ``` 
+    cd tinyservice
     python -m venv venv
 ```
 
@@ -16,11 +16,14 @@ In the Tinyservice directory:
 ```    
     pip install -r requirements.txt
 ```
-- To run the program
+
+
+To run the program
 ```    
     python wsgi.py
 ```
-- To run tests
+
+To run tests
 ```    
     python test_tinyservice.py
 ```
